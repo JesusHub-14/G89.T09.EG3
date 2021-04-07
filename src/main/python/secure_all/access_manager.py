@@ -13,8 +13,6 @@ class AccessManager:
 
         if dni.isdigit():
             raise AccessManagementException("Invalid DNI. No letter found")
-        #else:
-            #raise AccessManagementException("Invalid DNI. No letter found")
 
         if dni.isalpha():
             raise AccessManagementException("Invalid DNI. Only string inserted")
