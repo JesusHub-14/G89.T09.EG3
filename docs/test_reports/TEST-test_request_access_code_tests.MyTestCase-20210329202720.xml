@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" file="test_request_access_code_tests.py" name="test_request_access_code_tests.MyTestCase-20210329202720" skipped="0" tests="1" time="0.043" timestamp="2021-03-29T20:27:20">
+	<testcase classname="test_request_access_code_tests.MyTestCase" name="test_something" time="0.043" timestamp="2021-03-29T20:27:20">
+		<failure message="True != False" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 615, in run
+    testMethod()
+  File "/Users/Sally/PycharmProjects/G89.T09.EG3/src/unittest/python/test_request_access_code_tests.py", line 6, in test_something
+    self.assertEqual(True, False)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 832, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: True != False
+]]>		</failure>
+	</testcase>
+</testsuite>
